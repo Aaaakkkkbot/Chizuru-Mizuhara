@@ -177,5 +177,5 @@ __help__ = """
 *AnimeQuotes & Quotes*
 
 /animequotes - gives a random anime quote
-/quote - gives a random quote
+/Meme - gives a random quote
 """
