@@ -18,10 +18,10 @@ from pyrogram import __version__ as pyro
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/6cbc8452a2796ad58c2f9.jpg"
-file2 = "https://telegra.ph/file/3b4eed00be4dfaa189fff.jpg"
-file3 = "https://telegra.ph/file/0b5e88c90238c357641a7.jpg"
-file4 = "https://telegra.ph/file/4e964395ea9138c943dce.jpg"
+file1 = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
+file2 = "https://te.legra.ph/file/00c6d07cc4aa1df7e45d9.jpg"
+file3 = "https://te.legra.ph/file/9f781cfb77480302cc0b5.jpg"
+file4 = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
 """ =======================CONSTANTS====================== """
 
 START_TIME = datetime.utcnow()
@@ -56,13 +56,13 @@ async def hmm(yes):
     Asuka += f"• **Telethon Version** - `{version.__version__}`\n"
     Asuka += f"• **PTB Version** - `{telegram.__version__}`\n"
     Asuka += f"• **Pyrogram Version** - `{pyro}`\n"
-    Asuka += f"• **My Master** - [Xelcius](tg://user?id={OWNER_ID})\n\n"
+    Asuka += f"• **My Master** - [Haruki](tg://user?id={OWNER_ID})\n\n"
     Asuka += f"Thanks For Adding Me In {yes.chat.title}"
-    BUTTON = [[Button.url("Support Chat", "https://t.me/AsukaSupport"), Button.url("Updates", "https://t.me/AsukaUpdates")]]
+    BUTTON = [[Button.url("Support Chat", "https://t.me/BotsXSupport"), Button.url("Updates", "https://t.me/ProBot_Updates")]]
     on = await borg.send_file(yes.chat_id, file="https://telegra.ph/file/d03f381c8178a8fd2dc27.jpg",caption=Asuka, buttons=BUTTON)
 
 @register(pattern=("/repo"))
 async def repo(event):
     Asuka = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), Click The Button Below To Get My Repo**\n\n"
-    BUTTON = [[Button.url("GitHub", "https://github.com/RimuruDemonlord/AsukaRobot"), Button.url("Developer", "https://t.me/Xelcius")]]
+    BUTTON = [[Button.url("GitHub", "https://t.me/ProBot_Updates"), Button.url("Developer", "https://t.me/Xelcius")]]
     await borg.send_file(event.chat_id, file="https://telegra.ph/file/64adcb1bb932846962ab0.jpg", caption=Asuka, buttons=BUTTON)
