@@ -55,7 +55,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://github.com/Aaaakkkkbot/Chokqi">
+        <a href="https://heroku.com/deploy?template=https://github.com/Aaaakkkkbot/Chokqi">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
