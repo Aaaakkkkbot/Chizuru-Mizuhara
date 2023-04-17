@@ -69,22 +69,22 @@ PM_START_TEXT = """
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @AsukaRobot Powered By* [𝗞𝗮𝗶𝘇𝘂𝗿𝘆𝘂](https://t.me/TheKaizuryu)
+*• @Chizuru_Probot Powered By* [『Qᴜᴀɴᴛɪᴄ』](https://t.me/QuanticXNetwork)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="➕️ Add Asuka To Your Chat ➕️",
-                             url="https://t.me/AsukaRobot?startgroup=true"),
+                             text="【Aᴅᴅ ᴍɪᴢᴜʜᴀʀᴀ Tᴏ Yᴏᴜʀ GC】",
+                             url="https://t.me/Chizuru_Probot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Kaizuryu",
-                             url="https://t.me/TheKaizuryu"),
+                             text="Support",
+                             url="https://t.me/BotsXSupport"),
                        InlineKeyboardButton(
-                             text="About Asuka",
-                             callback_data="asuka_"),
+                             text="About Chizuru",
+                             callback_data="Chizuru_"),
                    ],
                   [
                         InlineKeyboardButton(
@@ -98,18 +98,18 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Asuka Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @AsukaRobot.
+*‣ Chizuru Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @Chizuru_Probot.
 """
 
 REPO_TXT = """
 *‣ Owner:*
-• [Xelcius](t.me/xelcius)
+• [Haruki](https://t.me/BotsXSupport)
 \n*‣ Note:*
 • If You Want This Bot's Repo You Can Get It From The Button Below.
-• Report Any Kind Of Bugs At [Support](t.me/AsukaSupport)
+• Report Any Kind Of Bugs At [Support](https://t.me/BotsXSupport)
 """
 
-ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+ABOUT3 = """Hello [{}], My name is *Chizuru Langley Soryu*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
             \n ‣ I can Greet Users with customizable welcome message and even set a group rules
             \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -120,7 +120,7 @@ ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}] *Asuka* here!
+Hey [{}] *Chizuru* here!
 I Help Admins To Manage Their Groups!
 Main commands available :
  ‣ /help: PM's you this message.
@@ -133,7 +133,7 @@ For all command use / or !
 """
 
 ACRUISE = """
-💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Anime_Cruise !!!
+💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Official_Hindi_Anime !!!
 
 • 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐀𝐥𝐥 𝐋𝐚𝐭𝐞𝐬𝐭 𝐀𝐧𝐢𝐦𝐞𝐬.
 • 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐧𝐢𝐦𝐞, 𝐋𝐨𝐰 𝐒𝐢𝐳𝐞.
@@ -144,31 +144,31 @@ ACRUISE = """
 """
 
 Asuka_IMG = (
-      "https://telegra.ph/file/645e0b5ca6382d6d73ab5.jpg",
-      "https://telegra.ph/file/3c6cb9b50381170c95278.jpg",
-      "https://telegra.ph/file/4e964395ea9138c943dce.jpg",
-      "https://telegra.ph/file/6e6a21dda7dd3525f7f94.jpg",
-      "https://telegra.ph/file/3c6cb9b50381170c95278.jpg",
+      "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg",
+      "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg",
+      "https://te.legra.ph/file/9f781cfb77480302cc0b5.jpg",
+      "https://te.legra.ph/file/9f781cfb77480302cc0b5.jpg",
+      "https://te.legra.ph/file/5964bfcd032057b07e6b7.jpg",
 )
 
 TEXXT = "Yes B!tch, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
 
 Asuka_N_IMG = (
-      "https://telegra.ph/file/0b5e88c90238c357641a7.jpg",
-      "https://telegra.ph/file/3c93a66c6751088a00fbd.jpg",
-      "https://telegra.ph/file/3b4eed00be4dfaa189fff.jpg",
-      "https://telegra.ph/file/6cbc8452a2796ad58c2f9.jpg",
-      "https://telegra.ph/file/3c6cb9b50381170c95278.jpg"
+      "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4",
+      "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4",
+      "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4",
+      "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4",
+      "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4"
 
 )
 
-Asuka_PIC = "https://telegra.ph/file/eedea672a770ec92363bd.jpg"
+Asuka_PIC = "https://telegra.ph/file/a0066d0dfe8093389d9b3.mp4"
 
 Asuka_VID = "https://telegra.ph/file/8d49b6f49362e7778785e.jpg"
 
-PM_PHOTO = "https://telegra.ph/file/fefd65c0e2ccb00453407.jpg"
+PM_PHOTO = "https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4"
 
-Asuka_DISPACHER_PIC = "https://telegra.ph/file/d03f381c8178a8fd2dc27.jpg"
+Asuka_DISPACHER_PIC = "https://telegra.ph/file/fabf1ee636c411c1df671.jpg"
 
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @TheKaizuryu"""
 
@@ -308,7 +308,7 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-                video="https://telegra.ph/file/c49829f9f5d65947cbc7e.mp4",
+                video="https://te.legra.ph/file/ae2be1e6dd0123b543ba8.mp4",
                 caption="Yes B!tch, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -316,10 +316,10 @@ def start(update: Update, context: CallbackContext):
                   [
                        InlineKeyboardButton(
                              text="Support",
-                             url="t.me/AsukaSupport"),
+                             url="t.me/BotsXSupport"),
                        InlineKeyboardButton(
                              text="Updates",
-                             url="t.me/AsukaUpdates")
+                             url="t.me/ProBot_Updates")
                      ]
                 ]
             ),
@@ -386,7 +386,7 @@ def help_button(update, context):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="Back", callback_data="help_back"),
-                    InlineKeyboardButton(text='Support', url='https://t.me/AsukaSupport')
+                    InlineKeyboardButton(text='Update', url='https://t.me/ProBot_Updates')
                 ]
                     )
             query.message.edit_caption(
@@ -438,7 +438,7 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="asuka_")
+                    InlineKeyboardButton(text="Back", callback_data="Chizuru_")
                  ],
                 ]
             ),
@@ -452,8 +452,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AsukaSupport"),
-                    InlineKeyboardButton(text="Updates", url="t.me/AsukaUpdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/BotsXSupport"),
+                    InlineKeyboardButton(text="Updates", url="t.me/ProBot_Updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -474,11 +474,11 @@ def repo_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/RimuruDemonlord/AsukaRobot"),
-                    InlineKeyboardButton(text="Kaizuryu", url="t.me/TheKaizuryu"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/ProBot_Updates"),
+                    InlineKeyboardButton(text="Quantic", url="t.me/QuanticXNetwork"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="asuka_")
+                    InlineKeyboardButton(text="Back", callback_data="Chizuru_")
                  ],
                 ]
             ),
@@ -503,19 +503,19 @@ def asuka_callback_data(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Try Inline", switch_inline_query_current_chat=""),
-                    InlineKeyboardButton(text="Developer", url="t.me/Xelcius"),
+                    InlineKeyboardButton(text="Developer", url="t.me/Shinpei_xd"),
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="about_back"),
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/RimuruDemonlord/AsukaRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/QuanticXNetwork"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="asuka_back")
+                    InlineKeyboardButton(text="Back", callback_data="Chizuru_back")
                  ],
                 ]
             ),
         )
-    elif query.data == "asuka_back":
+    elif query.data == "Chizuru_back":
         first_name = update.effective_user.full_name
         id = update.effective_user.id
         query.message.edit_caption(
@@ -559,7 +559,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Click here", url="https://t.me/AsukaRobot?start=help")
+                  InlineKeyboardButton(text=" Click here", url="https://t.me/Chizuru_Probot?start=help")
                   ]
                 ]
             ),
@@ -798,7 +798,7 @@ def main():
                   [
                        InlineKeyboardButton(
                              text="Off-Topic",
-                             url="https://t.me/Anime_Chat_XKaizuryu")
+                             url="https://t.me/+2gGC1dL4liQzYzZl")
                      ]
                 ]
             ),
