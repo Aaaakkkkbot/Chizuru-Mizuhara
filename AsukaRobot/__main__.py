@@ -61,7 +61,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey B!tch {},*
-*Myself 𝗔𝘀𝘂𝗸𝗮 𝗟𝗮𝗻𝗴𝗹𝗲𝘆 𝗦𝗼𝗿𝘆𝘂, Pilot On Evangelion Unit-02 As Well As A Powerful Group Management Bot.*
+*Myself Chizuru 𝗟𝗮𝗻𝗴𝗹𝗲𝘆 𝗦𝗼𝗿𝘆𝘂, Pilot On Evangelion Unit-02 As Well As A Powerful Group Management Bot.*
 
 ❍ *EVA Unit - 02*
 ❍ *Uptime* - {}
