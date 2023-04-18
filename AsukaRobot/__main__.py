@@ -170,7 +170,7 @@ PM_PHOTO = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
 
 Asuka_DISPACHER_PIC = "https://telegra.ph/file/fabf1ee636c411c1df671.jpg"
 
-DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @TheKaizuryu"""
+DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @QuanticXNetwork"""
 
 IMPORTED = {}
 MIGRATEABLE = []
