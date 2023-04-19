@@ -18,10 +18,10 @@ from pyrogram import __version__ as pyro
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
-file2 = "https://te.legra.ph/file/00c6d07cc4aa1df7e45d9.jpg"
-file3 = "https://te.legra.ph/file/9f781cfb77480302cc0b5.jpg"
-file4 = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
+file1 = "https://telegra.ph/file/d903a9ddb1a0f9f012cd3.jpg"
+file2 = "https://telegra.ph/file/d903a9ddb1a0f9f012cd3.jpg"
+file3 = "https://telegra.ph/file/d903a9ddb1a0f9f012cd3.jpg"
+file4 = "https://telegra.ph/file/d903a9ddb1a0f9f012cd3.jpg"
 """ =======================CONSTANTS====================== """
 
 START_TIME = datetime.utcnow()
@@ -59,7 +59,7 @@ async def hmm(yes):
     Asuka += f"• **My Master** - [Haruki](tg://user?id={OWNER_ID})\n\n"
     Asuka += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [[Button.url("Support Chat", "https://t.me/BotsXSupport"), Button.url("Updates", "https://t.me/ProBot_Updates")]]
-    on = await borg.send_file(yes.chat_id, file="https://telegra.ph/file/d03f381c8178a8fd2dc27.jpg",caption=Asuka, buttons=BUTTON)
+    on = await borg.send_file(yes.chat_id, file="https://telegra.ph/file/d903a9ddb1a0f9f012cd3.jpg",caption=Asuka, buttons=BUTTON)
 
 @register(pattern=("/repo"))
 async def repo(event):
