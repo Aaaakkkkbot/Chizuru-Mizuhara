@@ -51,7 +51,7 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    Asuka = f"• **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm Asuka**\n"
+    Asuka = f"• **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm Chizuru**\n"
     Asuka += f"• **My Uptime** - `{uptime}`\n"
     Asuka += f"• **Telethon Version** - `{version.__version__}`\n"
     Asuka += f"• **PTB Version** - `{telegram.__version__}`\n"
@@ -63,6 +63,6 @@ async def hmm(yes):
 
 @register(pattern=("/repo"))
 async def repo(event):
-    Asuka = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), Click The Button Below To Get My Repo**\n\n"
+    Chizuru = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), Click The Button Below To Get My Repo**\n\n"
     BUTTON = [[Button.url("GitHub", "https://t.me/ProBot_Updates"), Button.url("Developer", "https://t.me/Xelcius")]]
     await borg.send_file(event.chat_id, file="https://telegra.ph/file/64adcb1bb932846962ab0.jpg", caption=Asuka, buttons=BUTTON)
