@@ -64,12 +64,3 @@ def reverse(update, context):
    
 
 dispatcher.add_handler(CommandHandler(["pp", "grs", "p", "reverse"], reverse))
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
