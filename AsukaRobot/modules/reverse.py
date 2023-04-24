@@ -5,7 +5,7 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler
 
-from Exon import dispatcher
+from AsukaRobot import dispatcher
 
 
 api_key = "blue-api-testing"
