@@ -51,7 +51,7 @@ def reverse(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text="Link⚡", url=web_url)
+                            InlineKeyboardButton(text="Link", url=web_url)
                         ]
                     ]
                 )
