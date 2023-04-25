@@ -57,9 +57,9 @@ def reverse(update, context):
                 )
             )
         except:
-            message.reply_text("Cant find anything!!")
+            message.reply_text("Cant find anything?!!")
     except:
-        message.reply_text("Cant find anything!!")
+        message.reply_text("Cant find anything?!!")
     a.delete()
    
 
