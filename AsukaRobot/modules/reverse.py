@@ -1,19 +1,10 @@
-"""
-MIT License
-
-Copyright (c) 2023 SOME-1HING
-
-This file uses the "google-reverse-image-api" API made by "SOME-1HING"
-(https://github.com/SOME-1HING/google-reverse-image-api) under the terms of the MIT license.
-
-"""
 
 import requests
 from pyrogram import filters, client  # Pyrogram v2.0 and up
 from pyrogram.enums import ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Shikimori import pbot, TOKEN  # Look https://www.github.com/SOME-1HING/ShikimoriBot
+from AsukaRobot import pbot, TOKEN  # Look https://www.github.com/SOME-1HING/ShikimoriBot
 
 API_URL = "https://google-reverse-image-api.vercel.app/reverse"
 
