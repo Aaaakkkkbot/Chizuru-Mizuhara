@@ -166,7 +166,7 @@ Asuka_PIC = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
 
 Asuka_VID = "https://telegra.ph/file/8d49b6f49362e7778785e.jpg"
 
-PM_PHOTO = "https://te.legra.ph/file/db7b4f532ea97fb0d040b.jpg"
+PM_PHOTO = "https://telegra.ph/file/3f115005e6774a8582a67.mp4"
 
 Asuka_DISPACHER_PIC = "https://telegra.ph/file/fabf1ee636c411c1df671.jpg"
 
@@ -227,9 +227,9 @@ for module_name in ALL_MODULES:
 def send_help(chat_id, text, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
-    dispatcher.bot.send_photo(
+    dispatcher.bot.send_video(
         chat_id=chat_id,
-        photo=(PM_PHOTO),
+        video=(PM_PHOTO),
         caption=text,
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=keyboard)
