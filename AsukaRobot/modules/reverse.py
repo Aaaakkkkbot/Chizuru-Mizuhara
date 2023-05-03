@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardMarkup, InlineKeyboardButton, Message)
 import httpx
 
-from YourRobot import pbot
+from AsukaRobot import pbot
 
 API_URL = 'https://sasta.tk/google_reverse'
 
@@ -25,8 +25,6 @@ class STRINGS:
     REVERSE_RESULT = '''
 <b>Search Keyword:</b> <code>{}</code>
 <b>Results link:</b> <a href='{}'>Link</a>.
-
-<b>Credits:</b> @SastaDev
     '''
 
 COMMANDS = ['reverse', 'grs', 'pp']
