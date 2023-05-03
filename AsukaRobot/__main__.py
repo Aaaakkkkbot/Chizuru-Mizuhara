@@ -83,12 +83,12 @@ buttons = [
                              text="Support",
                              url="https://t.me/BotsXSupport"),
                        InlineKeyboardButton(
-                             text="About Chizuru",
-                             callback_data="Chizuru_"),
+                             text="Update",
+                             url="https://t.me/ProBot_Updates"),
                    ],
                   [
                         InlineKeyboardButton(
-                             text="Help & Cmds ❔",
+                             text="Help & Cmds",
                              callback_data="help_back"),
                     ],
     ]
