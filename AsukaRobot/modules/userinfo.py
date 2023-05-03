@@ -474,8 +474,8 @@ def stats(update, context):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Secret Division",
+                             url="https://t.me/Secret_Division")
                      ] 
                 ]
             ),
@@ -488,17 +488,17 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
+                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/ProBot_Updates)\n\n"
                 )
-                + "╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n"
+                + "╘══「 by [The Main Support](https://t.me/BotsXSupport) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Secret Division",
+                             url="https://t.me/Secret_Division")
                      ] 
                 ]
             ),
