@@ -12,7 +12,7 @@ import httpx
 
 from AsukaRobot import pbot
 
-API_URL = 'https://sasta.tk/google_reverse'
+API_URL = 'https://google-reverse-image-api.vercel.app/reverse'
 
 class STRINGS:
     REPLY_TO_MEDIA = 'Reply to a message having photo, sticker or document.'
