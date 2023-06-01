@@ -16,7 +16,7 @@ from AsukaRobot import pbot
 
 #ADD ANY BUTTON YOU WANT BELOW YOUR WELCOME IMAGE
 
-markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("MODS", url="https://t.me/BotsXSupport")]])
+markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("❣️CHAT GROUP❣️", url="https://t.me/BotsXSupport")]])
 
 @pbot.on_message(filters.new_chat_members & filters.group)
 
