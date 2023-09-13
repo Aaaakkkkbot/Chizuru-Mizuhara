@@ -70,7 +70,7 @@ Pillow>=4.2.0
 CurrencyConverter
 googletrans==4.0.0-rc1
 google_trans_new
-pyrate-limiter
+pyrate-limiter==2.3.4
 nekos.py
 tgcrypto
 python-arq==6.0.3
